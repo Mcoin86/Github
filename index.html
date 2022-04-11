@@ -36,38 +36,82 @@
         <li>listItem3</li>
         <li>listItem4</li>
     </ol>
-    <!--Table-->
-    <table>
-        <thead> 
-            <tr>
-                <th>Name</th>
-                <th>Email</th>
-                <th>Age</th>
-            </tr>
-        </thead>
-        <tbody>
-            <tr>
-                <td>Matteo Coin</td>
-                <td>mcoin86@gmail.com</td>
-                <td>26</td>
-            </tr>
-            <tr>
-                <td>Zachary Lurje</td>
-                <td>zaclurz@gmail.com</td>
-                <td>27</td>
-            </tr>
-            <tr>
-                <td>Samuele Lorenzetti</td>
-                <td>samsam@gmail.com</td>
-                <td>25</td>
-            </tr>
-        </tbody>
+    <br>
+<!--Table-->
+<table>
+    <thead> 
+        <tr>
+            <th>Name</th>
+            <th>Email</th>
+            <th>Age</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>Matteo Coin</td>
+            <td>mcoin86@gmail.com</td>
+            <td>26</td>
+        </tr>
+        <tr>
+            <td>Zachary Lurje</td>
+            <td>zaclurz@gmail.com</td>
+            <td>27</td>
+        </tr>
+        <tr>
+            <td>Samuele Lorenzetti</td>
+            <td>samsam@gmail.com</td>
+            <td>25</td>
+        </tr>
+    </tbody>
+    
+    <br>
+</table>
 <br>
+<hr>
+<br>
+
      <!--forms-->
-        <br>
 <form action="process.php" method="post">
-<label for="first name"></label>
+    <div>
+<label> first name </label>
 <input type="text"name="first-name">
+ </div>
+ <br>
+ <div>
+<label> last name</label>
+<input type="text"name="last-name">
+</div>
+<br>
+<div>
+    <label> email address</label>
+    <input type="email"name="email-address">
+    </div>
+    <br>
+<div>
+    <label>message</label>
+    <textarea name="message"></textarea>
+    </div>
+    <br>
+<div>
+    <label>gender</label>
+    <select name="gender">
+        <option value="male">Male</option>
+        <option value="female">Female</option>
+        <option value="other">Other</option>
+
+    </select>
+    </div>
+    <br>
+     <div>
+        <label>age:</label>
+        <input type="number"name="age" value="30">
+        </div>
+        <br>  
+        <div>
+            <label>birthday:</label>
+            <input type="date"name="birthday">
+            </div>
+            <br> 
 </form>
 
 <div><margin-top:500px></margin-top:500px></div>
