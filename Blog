@@ -1,8 +1,12 @@
-<!DOCTYPE html>
-<html>
-    <head>
-        <title>My blog</title>
-    </head>
+<!--HTML-->
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+     <title>My blog</title>
+</head>
     <body>
       <header>
           <h1>My website</h1>
@@ -11,6 +15,7 @@
           <article>
               <h3>Blog post one</h3>
               <small>Posted by Matteo April 15</small>
+              <P></P>
           </article>
       </section>
     </body>
